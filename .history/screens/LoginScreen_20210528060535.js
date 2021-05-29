@@ -1,0 +1,41 @@
+import React, {useContext, useState} from 'react';
+import {
+    View,
+    Text,
+    TouchableOpacity,
+    Image,
+    Platform,
+    StyleSheet,
+    ScrollView
+  } from 'react-native';
+
+//import SocialButton from '../components/SocialButton';
+
+const LoginScreen = ({navigation}) => {
+    //const {login, googleLogin, fbLogin} = useContext(AuthContext);
+
+    return(
+    <ScrollView contentContainerStyle={styles.container}>
+      <Image
+        source={require('../assets/MOZORI.png')}
+        style={styles.logo}
+      />
+    </ScrollView>
+    );
+};
+
+export default LoginScreen;
+
+const styles = StyleSheet.create({
+    container: {
+      justifyContent: 'center',
+      alignItems: 'center',
+      padding: 20,
+      paddingTop: 50
+    },
+    logo: {
+      height: 150,
+      width: 150,
+      resizeMode: 'cover',
+    },
+  });
