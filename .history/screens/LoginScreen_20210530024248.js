@@ -7,7 +7,7 @@ import {
 
 import SocialButton from '../components/SocialButton';
 import {AuthContext} from '../navigation/AuthProvider';
-//import Providers from '../navigation';
+//import Providers from './navigation';
 
 const LoginScreen = ({navigation}) => {
     const {googleLogin} = useContext(AuthContext);
@@ -40,7 +40,6 @@ const LoginScreen = ({navigation}) => {
       ) : null}
 
     </ScrollView>
-    
     );
 };
 

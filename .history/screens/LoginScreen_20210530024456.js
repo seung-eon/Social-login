@@ -7,12 +7,13 @@ import {
 
 import SocialButton from '../components/SocialButton';
 import {AuthContext} from '../navigation/AuthProvider';
-//import Providers from '../navigation';
+import Providers from './navigation';
 
 const LoginScreen = ({navigation}) => {
     const {googleLogin} = useContext(AuthContext);
 
     return(
+    <Providers >
     <ScrollView contentContainerStyle={styles.container}>
       <Image
         source={require('../assets/MOZORI.png')}
@@ -40,7 +41,7 @@ const LoginScreen = ({navigation}) => {
       ) : null}
 
     </ScrollView>
-    
+    </Providers>
     );
 };
 

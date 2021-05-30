@@ -8,8 +8,7 @@
 
 import React, {useEffect} from 'react';
 import SplashScreen from 'react-native-splash-screen';
-//import LoginScreen from "./screens/LoginScreen";
-import Providers from './navigation';
+import LoginScreen from "./screens/LoginScreen";
 
 const App = () => {
   useEffect(() => {
@@ -17,7 +16,7 @@ const App = () => {
   }, [500]);
 
   return (
-    <Providers />
+    <LoginScreen />
   );
 };
 
