@@ -21,13 +21,7 @@ const LoginScreen = ({navigation}) => {
 
       {Platform.OS === 'android' ? (
         <View style={styles.buttoncontainer}>
-          <SocialButton
-            buttonTitle="카카오톡으로 로그인"
-            btnType="kakao"
-            color="#000000"
-            backgroundColor="#ffe500"
-            //onPress={() => fbLogin()}
-          />
+         
 
           <SocialButton
             buttonTitle="구글로 로그인"
