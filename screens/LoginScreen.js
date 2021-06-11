@@ -7,7 +7,6 @@ import {
 
 import SocialButton from '../components/SocialButton';
 import {AuthContext} from '../navigation/AuthProvider';
-//import Providers from '../navigation';
 
 const LoginScreen = ({navigation}) => {
     const {googleLogin} = useContext(AuthContext);
@@ -21,7 +20,6 @@ const LoginScreen = ({navigation}) => {
 
       {Platform.OS === 'android' ? (
         <View style={styles.buttoncontainer}>
-         
 
           <SocialButton
             buttonTitle="구글로 로그인"
