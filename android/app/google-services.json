@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1088560925863",
+    "project_id": "mozori-4b128",
+    "storage_bucket": "mozori-4b128.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088560925863:android:3af78a0bf309823b2a1f82",
+        "android_client_info": {
+          "package_name": "com.gklogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088560925863-nfeeslq4fol2cufjsn24i9oaq325rkcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gklogin",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "1088560925863-k434frhvocrr98finbbg3misriaeof8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs7DRDnCeDgc34MUsc1svPcn5LX6K8n7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088560925863-k434frhvocrr98finbbg3misriaeof8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
